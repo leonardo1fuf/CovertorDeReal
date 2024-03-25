@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>$Real converter</title>
+
+        <!-- CSS -->
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        
+        <!-- Fonts -->
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>$Real converter</h1>
+
+        </header>
+
+        <main>
+
+            <form id="form">
+
+                <section class="inputs-container">
+
+                    <div>
+
+                        <label for="value-real">Valor a ser convertido (R$)</label>
+
+                        <input type="number" name="value-real" id="value-real" placeholder="R$20,00" max="1000000"  >
+
+                    </div>
+
+                    <div>
+
+                        <label for="currency">Escolha a moeda</label>
+
+                        <select name="" id="currency">
+
+                            <option value="">Selecione...</option>
+
+                            <option value="eur">Euro</option>
+
+                            <option value="dol">Dolar</option>
+
+                        </select>
+
+                    </div>
+
+                </section>
+
+                <button type="submit">Converter</button>
+                
+            </form>
+
+            <h2 id="result"></h2>
+
+        </main>
+
+        <footer>
+
+            <span>
+                
+                &copy; $Real converter, 2024. Todos os direitos reservados.
+
+            </span>
+
+        </footer>
+
+        <script src="./script.js">
+
+        </script>
+        
+    </body>
+
+</html>
